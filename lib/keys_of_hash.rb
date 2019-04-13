@@ -3,7 +3,7 @@ class Hash
     array = []
     arguments.each do |key, value|
       if arguments.include?(value)
-        array << arguments
+        array << key
       end
     end
     array
